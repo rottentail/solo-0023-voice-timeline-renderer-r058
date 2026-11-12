@@ -1,0 +1,29 @@
+{
+  "container_chunk_ids": [
+    "fmt ",
+    "LIST",
+    "data"
+  ],
+  "register_status": 201,
+  "registered_frames": 960,
+  "triage_for_benign_source": {
+    "container": {
+      "bits_per_sample": 16,
+      "block_align": 2,
+      "channels": 1,
+      "container_frames": 960,
+      "data_chunk_count": 1,
+      "dropped_frames": 0,
+      "parser_visible_frames": 960,
+      "sample_rate": 48000,
+      "valid_riff": true
+    },
+    "digest_matches_metadata": true,
+    "id": "src_benign_list",
+    "media_sha256": "3315d57e91f799ed206394ff8fcb82355e83cd129c138f655e244c5a9aee2bd4",
+    "metadata_digest": "3315d57e91f799ed206394ff8fcb82355e83cd129c138f655e244c5a9aee2bd4",
+    "reason": "single data chunk, record matches bytes",
+    "record_frame_count": 960,
+    "status": "RELEASE-CLEAN"
+  }
+}

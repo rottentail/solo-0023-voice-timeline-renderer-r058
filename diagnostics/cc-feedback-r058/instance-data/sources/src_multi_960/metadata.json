@@ -1,0 +1,14 @@
+{
+  "id": "src_multi_960",
+  "name": "multi data 480+480",
+  "digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+  "byte_count": 1972,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 480,
+  "duration_ms": 10,
+  "peak_dbfs": -22.8762952000524,
+  "rms_dbfs": -28.85228882195627,
+  "created_at": "2026-11-12T09:54:33.825469092Z"
+}

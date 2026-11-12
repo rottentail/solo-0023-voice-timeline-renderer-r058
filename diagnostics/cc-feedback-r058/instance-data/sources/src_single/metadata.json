@@ -1,0 +1,14 @@
+{
+  "id": "src_single",
+  "name": "single chunk control",
+  "digest": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74",
+  "byte_count": 1964,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 960,
+  "duration_ms": 20,
+  "peak_dbfs": -11.224148510407861,
+  "rms_dbfs": -14.792999909873497,
+  "created_at": "2026-11-12T09:54:33.836102883Z"
+}

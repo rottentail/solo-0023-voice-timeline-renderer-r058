@@ -1,0 +1,87 @@
+{
+  "failed_job_output_http": 409,
+  "failed_job_output_published": false,
+  "failed_render_dir_exists": false,
+  "full_grid": {
+    "created_at": "2026-11-12T09:55:34.8429293Z",
+    "id": "tl_legacy_full",
+    "name": "legacy full 960",
+    "output_channels": 1,
+    "output_frames": 960,
+    "sample_rate": 48000,
+    "spans": [
+      {
+        "crossfade_frames": 0,
+        "gain_db": 0,
+        "source_end_frame": 960,
+        "source_id": "src_legacy_960",
+        "source_start_frame": 0
+      }
+    ],
+    "state": "ready",
+    "target_peak_dbfs": -1
+  },
+  "full_grid_promised_frames": 960,
+  "full_grid_status": 201,
+  "full_render_error": {
+    "code": "render_failed",
+    "message": "timeline rendering failed"
+  },
+  "full_render_job": {
+    "error": {
+      "code": "render_failed",
+      "message": "timeline rendering failed"
+    },
+    "job": {
+      "created_at": "2026-11-12T09:55:34.846106925Z",
+      "error": {
+        "code": "render_failed",
+        "message": "timeline rendering failed"
+      },
+      "id": "render_legacy_full",
+      "state": "failed",
+      "timeline_id": "tl_legacy_full",
+      "updated_at": "2026-11-12T09:55:34.851840509Z"
+    }
+  },
+  "full_render_status": 500,
+  "full_render_terminal_state": "failed",
+  "get_source_record": {
+    "bits_per_sample": 16,
+    "byte_count": 1972,
+    "channels": 1,
+    "created_at": "2026-11-01T00:00:00Z",
+    "digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+    "duration_ms": 20,
+    "frame_count": 960,
+    "id": "src_legacy_960",
+    "name": "legacy correct 960 record",
+    "peak_dbfs": -22,
+    "rms_dbfs": -28,
+    "sample_rate": 48000
+  },
+  "get_source_status": 200,
+  "media_sha256": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+  "partial_final_digest": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+  "partial_final_frames": 480,
+  "partial_grid_promised_frames": 480,
+  "partial_grid_status": 201,
+  "partial_render_state": "completed",
+  "partial_render_status": 201,
+  "record_digest_matches_bytes": true,
+  "record_still_promises_960": true,
+  "seeded_asset": {
+    "bits_per_sample": 16,
+    "byte_count": 1972,
+    "channels": 1,
+    "created_at": "2026-11-01T00:00:00Z",
+    "digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+    "duration_ms": 20,
+    "frame_count": 960,
+    "id": "src_legacy_960",
+    "name": "legacy correct 960 record",
+    "peak_dbfs": -22.0,
+    "rms_dbfs": -28.0,
+    "sample_rate": 48000
+  }
+}

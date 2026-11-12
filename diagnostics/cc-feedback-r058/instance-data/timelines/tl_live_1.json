@@ -1,0 +1,19 @@
+{
+  "id": "tl_live_1",
+  "name": "live tl 1",
+  "sample_rate": 48000,
+  "output_channels": 1,
+  "target_peak_dbfs": -1,
+  "spans": [
+    {
+      "source_id": "src_live_5277_1",
+      "source_start_frame": 0,
+      "source_end_frame": 240,
+      "gain_db": 0,
+      "crossfade_frames": 0
+    }
+  ],
+  "state": "ready",
+  "output_frames": 240,
+  "created_at": "2026-11-12T09:58:02.071100841Z"
+}

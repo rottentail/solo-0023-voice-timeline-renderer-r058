@@ -1,0 +1,182 @@
+[
+  {
+    "byte_count": 1972,
+    "chunks": [
+      {
+        "id": "fmt ",
+        "payload_end": 36,
+        "payload_start": 20,
+        "size": 16
+      },
+      {
+        "id": "data",
+        "payload_end": 1004,
+        "payload_start": 44,
+        "size": 960
+      },
+      {
+        "id": "data",
+        "payload_end": 1972,
+        "payload_start": 1012,
+        "size": 960
+      }
+    ],
+    "container": {
+      "all_chunks_frame_aligned": true,
+      "summed_frames": 960,
+      "summed_pcm_bytes": 1920
+    },
+    "data_chunk_count": 2,
+    "duration_ms_container": 20.0,
+    "fmt": {
+      "audio_format": 1,
+      "bits_per_sample": 16,
+      "block_align": 2,
+      "block_align_consistent": true,
+      "byte_rate": 96000,
+      "byte_rate_consistent": true,
+      "channels": 1,
+      "sample_rate": 48000
+    },
+    "last_chunk_wins_parser": {
+      "frames": 480,
+      "pcm_bytes": 960
+    },
+    "path": "fixtures/multi_data_960.wav",
+    "riff_size_covers_file": true,
+    "riff_size_field": 1964,
+    "sha256": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4"
+  },
+  {
+    "byte_count": 1972,
+    "chunks": [
+      {
+        "id": "fmt ",
+        "payload_end": 36,
+        "payload_start": 20,
+        "size": 16
+      },
+      {
+        "id": "data",
+        "payload_end": 1244,
+        "payload_start": 44,
+        "size": 1200
+      },
+      {
+        "id": "data",
+        "payload_end": 1972,
+        "payload_start": 1252,
+        "size": 720
+      }
+    ],
+    "container": {
+      "all_chunks_frame_aligned": true,
+      "summed_frames": 960,
+      "summed_pcm_bytes": 1920
+    },
+    "data_chunk_count": 2,
+    "duration_ms_container": 20.0,
+    "fmt": {
+      "audio_format": 1,
+      "bits_per_sample": 16,
+      "block_align": 2,
+      "block_align_consistent": true,
+      "byte_rate": 96000,
+      "byte_rate_consistent": true,
+      "channels": 1,
+      "sample_rate": 48000
+    },
+    "last_chunk_wins_parser": {
+      "frames": 360,
+      "pcm_bytes": 720
+    },
+    "path": "fixtures/multi_data_odd.wav",
+    "riff_size_covers_file": true,
+    "riff_size_field": 1964,
+    "sha256": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7"
+  },
+  {
+    "byte_count": 1964,
+    "chunks": [
+      {
+        "id": "fmt ",
+        "payload_end": 36,
+        "payload_start": 20,
+        "size": 16
+      },
+      {
+        "id": "data",
+        "payload_end": 1964,
+        "payload_start": 44,
+        "size": 1920
+      }
+    ],
+    "container": {
+      "all_chunks_frame_aligned": true,
+      "summed_frames": 960,
+      "summed_pcm_bytes": 1920
+    },
+    "data_chunk_count": 1,
+    "duration_ms_container": 20.0,
+    "fmt": {
+      "audio_format": 1,
+      "bits_per_sample": 16,
+      "block_align": 2,
+      "block_align_consistent": true,
+      "byte_rate": 96000,
+      "byte_rate_consistent": true,
+      "channels": 1,
+      "sample_rate": 48000
+    },
+    "last_chunk_wins_parser": {
+      "frames": 960,
+      "pcm_bytes": 1920
+    },
+    "path": "fixtures/single_normal.wav",
+    "riff_size_covers_file": true,
+    "riff_size_field": 1956,
+    "sha256": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74"
+  },
+  {
+    "byte_count": 3884,
+    "chunks": [
+      {
+        "id": "fmt ",
+        "payload_end": 36,
+        "payload_start": 20,
+        "size": 16
+      },
+      {
+        "id": "data",
+        "payload_end": 3884,
+        "payload_start": 44,
+        "size": 3840
+      }
+    ],
+    "container": {
+      "all_chunks_frame_aligned": true,
+      "summed_frames": 960,
+      "summed_pcm_bytes": 3840
+    },
+    "data_chunk_count": 1,
+    "duration_ms_container": 20.0,
+    "fmt": {
+      "audio_format": 1,
+      "bits_per_sample": 16,
+      "block_align": 4,
+      "block_align_consistent": true,
+      "byte_rate": 192000,
+      "byte_rate_consistent": true,
+      "channels": 2,
+      "sample_rate": 48000
+    },
+    "last_chunk_wins_parser": {
+      "frames": 960,
+      "pcm_bytes": 3840
+    },
+    "path": "fixtures/stereo_normal.wav",
+    "riff_size_covers_file": true,
+    "riff_size_field": 3876,
+    "sha256": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54"
+  }
+]

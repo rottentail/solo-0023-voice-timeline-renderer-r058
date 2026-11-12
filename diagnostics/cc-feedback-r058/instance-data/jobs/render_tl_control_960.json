@@ -1,0 +1,19 @@
+{
+  "id": "render_tl_control_960",
+  "timeline_id": "tl_control_960",
+  "state": "completed",
+  "output": {
+    "digest": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+    "byte_count": 1964,
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits_per_sample": 16,
+    "frame_count": 960,
+    "duration_ms": 20,
+    "peak_dbfs": -0.9998544876801003,
+    "rms_dbfs": -4.568852197118979
+  },
+  "receipt_digest": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+  "created_at": "2026-11-12T09:54:33.876472967Z",
+  "updated_at": "2026-11-12T09:54:33.883545258Z"
+}

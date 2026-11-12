@@ -1,0 +1,24 @@
+{
+  "chunks_disjoint_ranges": true,
+  "conclusion": "The completed 480-frame output reproduces the SECOND (last) data chunk only. The first data chunk's 480 frames are absent from the published WAV: its all-negative sign pattern never appears, yet the job is state=completed. Container truth is 960 frames; the renderer quantized and published only 480.",
+  "first_chunk_all_negative": true,
+  "first_chunk_value_range": [
+    -9000,
+    -5647
+  ],
+  "frames_first_chunk": 480,
+  "frames_render_output": 480,
+  "frames_second_chunk": 480,
+  "output_all_negative": false,
+  "output_sign_pattern_equals_first_chunk": false,
+  "output_sign_pattern_equals_second_chunk": true,
+  "output_value_range": [
+    -12411,
+    29204
+  ],
+  "second_chunk_all_negative": false,
+  "second_chunk_value_range": [
+    -1000,
+    2353
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "src_legacy_960",
+  "name": "legacy correct 960 record",
+  "digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+  "byte_count": 1972,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 960,
+  "duration_ms": 20,
+  "peak_dbfs": -22.0,
+  "rms_dbfs": -28.0,
+  "created_at": "2026-11-01T00:00:00Z"
+}

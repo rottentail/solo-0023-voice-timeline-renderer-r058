@@ -1,0 +1,14 @@
+{
+  "id": "src_live_5277_8",
+  "name": "live 8",
+  "digest": "ec6ace7e51fdc48b1e59bc25bc69a78b497ff1d0a122d95272638fce4471ade2",
+  "byte_count": 524,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 240,
+  "duration_ms": 5,
+  "peak_dbfs": -21.516030107924884,
+  "rms_dbfs": -23.531225022192732,
+  "created_at": "2026-11-12T09:58:02.173860091Z"
+}

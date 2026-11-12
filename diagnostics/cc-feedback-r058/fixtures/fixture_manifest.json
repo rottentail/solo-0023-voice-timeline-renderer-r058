@@ -1,0 +1,38 @@
+{
+  "multi_data_960.wav": {
+    "byte_count": 1972,
+    "channels": 1,
+    "container_total_frames": 960,
+    "container_total_pcm_bytes": 1920,
+    "data_chunk_count": 2,
+    "sample_rate": 48000,
+    "sha256": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4"
+  },
+  "multi_data_odd.wav": {
+    "byte_count": 1972,
+    "channels": 1,
+    "container_total_frames": 960,
+    "container_total_pcm_bytes": 1920,
+    "data_chunk_count": 2,
+    "sample_rate": 48000,
+    "sha256": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7"
+  },
+  "single_normal.wav": {
+    "byte_count": 1964,
+    "channels": 1,
+    "container_total_frames": 960,
+    "container_total_pcm_bytes": 1920,
+    "data_chunk_count": 1,
+    "sample_rate": 48000,
+    "sha256": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74"
+  },
+  "stereo_normal.wav": {
+    "byte_count": 3884,
+    "channels": 2,
+    "container_total_frames": 960,
+    "container_total_pcm_bytes": 3840,
+    "data_chunk_count": 1,
+    "sample_rate": 48000,
+    "sha256": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54"
+  }
+}

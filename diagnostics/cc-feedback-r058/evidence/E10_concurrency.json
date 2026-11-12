@@ -1,0 +1,78 @@
+{
+  "all_replays_idempotent": true,
+  "audit_runs_while_producing": [
+    {
+      "renders": {
+        "HOLD-AFFECTED": 3,
+        "RELEASE-CLEAN": 1
+      },
+      "sources": {
+        "HOLD-DIVERGENT": 3,
+        "RELEASE-CLEAN": 4
+      }
+    },
+    {
+      "renders": {
+        "HOLD-AFFECTED": 3,
+        "RELEASE-CLEAN": 2
+      },
+      "sources": {
+        "HOLD-DIVERGENT": 3,
+        "RELEASE-CLEAN": 5
+      }
+    },
+    {
+      "renders": {
+        "HOLD-AFFECTED": 3,
+        "RELEASE-CLEAN": 3
+      },
+      "sources": {
+        "HOLD-DIVERGENT": 3,
+        "RELEASE-CLEAN": 6
+      }
+    },
+    {
+      "renders": {
+        "HOLD-AFFECTED": 3,
+        "RELEASE-CLEAN": 4
+      },
+      "sources": {
+        "HOLD-DIVERGENT": 3,
+        "RELEASE-CLEAN": 7
+      }
+    },
+    {
+      "renders": {
+        "HOLD-AFFECTED": 3,
+        "RELEASE-CLEAN": 5
+      },
+      "sources": {
+        "HOLD-DIVERGENT": 3,
+        "RELEASE-CLEAN": 8
+      }
+    },
+    {
+      "renders": {
+        "HOLD-AFFECTED": 3,
+        "RELEASE-CLEAN": 6
+      },
+      "sources": {
+        "HOLD-DIVERGENT": 3,
+        "RELEASE-CLEAN": 9
+      }
+    }
+  ],
+  "divergent_still_hold": true,
+  "errors": [],
+  "final_summary": {
+    "renders": {
+      "HOLD-AFFECTED": 3,
+      "RELEASE-CLEAN": 13
+    },
+    "sources": {
+      "HOLD-DIVERGENT": 3,
+      "RELEASE-CLEAN": 15
+    }
+  },
+  "produced_count": 12
+}

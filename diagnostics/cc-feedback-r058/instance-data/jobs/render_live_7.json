@@ -1,0 +1,19 @@
+{
+  "id": "render_live_7",
+  "timeline_id": "tl_live_7",
+  "state": "completed",
+  "output": {
+    "digest": "53f9002444458cb1c9760a05b347cbc4d10f6862da7e33624fde7093a4370d21",
+    "byte_count": 524,
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits_per_sample": 16,
+    "frame_count": 240,
+    "duration_ms": 5,
+    "peak_dbfs": -0.9998544876801003,
+    "rms_dbfs": -2.9914860453395278
+  },
+  "receipt_digest": "53f9002444458cb1c9760a05b347cbc4d10f6862da7e33624fde7093a4370d21",
+  "created_at": "2026-11-12T09:58:02.165872049Z",
+  "updated_at": "2026-11-12T09:58:02.171944091Z"
+}

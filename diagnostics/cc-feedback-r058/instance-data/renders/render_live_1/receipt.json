@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "render_id": "render_live_1",
+  "timeline_id": "tl_live_1",
+  "output": {
+    "digest": "0ecf8cfcd24db8feed63c1d101addea6d6ef6bfa99804edc86d43305ad0b5027",
+    "byte_count": 524,
+    "sample_rate": 48000,
+    "channels": 1,
+    "bits_per_sample": 16,
+    "frame_count": 240,
+    "duration_ms": 5,
+    "peak_dbfs": -0.9998544876801003,
+    "rms_dbfs": -2.860053734305035
+  },
+  "normalization": {
+    "requested_peak_dbfs": -1,
+    "before_peak_dbfs": -20.856794747273465,
+    "applied_gain_db": 19.856794747273465,
+    "output_peak_dbfs": -0.9998544876801003
+  },
+  "spans": [
+    {
+      "index": 0,
+      "source_id": "src_live_5277_1",
+      "source_digest": "10de63931093ac5d6cbdbc70ab65a89aa866b1914364928bb436cf78d0d2cfb6",
+      "source_start_frame": 0,
+      "source_end_frame": 240,
+      "output_start_frame": 0,
+      "output_end_frame": 240,
+      "output_frames": 240,
+      "crossfade_frames": 0,
+      "gain_db": 0,
+      "channel_action": "unchanged"
+    }
+  ],
+  "warnings": [],
+  "created_at": "2026-11-12T09:58:02.076749841Z"
+}

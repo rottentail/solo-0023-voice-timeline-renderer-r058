@@ -1,0 +1,14 @@
+{
+  "id": "src_live_5277_2",
+  "name": "live 2",
+  "digest": "7ebd3d9dbc4720972f58307a6d8c50e55c77de0a713a138229b684af5af84b8d",
+  "byte_count": 524,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 240,
+  "duration_ms": 5,
+  "peak_dbfs": -20.947962870109606,
+  "rms_dbfs": -22.828717728639212,
+  "created_at": "2026-11-12T09:58:02.083915674Z"
+}

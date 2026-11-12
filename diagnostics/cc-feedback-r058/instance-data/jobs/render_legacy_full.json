@@ -1,0 +1,11 @@
+{
+  "id": "render_legacy_full",
+  "timeline_id": "tl_legacy_full",
+  "state": "failed",
+  "error": {
+    "code": "render_failed",
+    "message": "timeline rendering failed"
+  },
+  "created_at": "2026-11-12T09:55:34.846106925Z",
+  "updated_at": "2026-11-12T09:55:34.851840509Z"
+}

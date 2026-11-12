@@ -1,0 +1,165 @@
+{
+  "data_root": "/home/node/forensics/instance-data",
+  "renders": {
+    "render_legacy_partial": {
+      "id": "render_legacy_partial",
+      "output_digest_matches_receipt": true,
+      "output_frames": 480,
+      "reason": "references divergent source(s): src_legacy_960; output cannot contain their dropped frames",
+      "receipt_digest": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+      "receipt_frames": 480,
+      "referenced_sources": [
+        "src_legacy_960"
+      ],
+      "status": "HOLD-AFFECTED"
+    },
+    "render_tl_control_960": {
+      "id": "render_tl_control_960",
+      "output_digest_matches_receipt": true,
+      "output_frames": 960,
+      "reason": "all sources clean and receipt chain intact",
+      "receipt_digest": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+      "receipt_frames": 960,
+      "referenced_sources": [
+        "src_single"
+      ],
+      "status": "RELEASE-CLEAN"
+    },
+    "render_tl_partial_441": {
+      "id": "render_tl_partial_441",
+      "output_digest_matches_receipt": true,
+      "output_frames": 441,
+      "reason": "references divergent source(s): src_multi_960; output cannot contain their dropped frames",
+      "receipt_digest": "fcf12028c79988f6c34bc9a2ad142d52e04c3c495ffd14a0b4eb0deb6d81515f",
+      "receipt_frames": 441,
+      "referenced_sources": [
+        "src_multi_960"
+      ],
+      "status": "HOLD-AFFECTED"
+    },
+    "render_tl_partial_480": {
+      "id": "render_tl_partial_480",
+      "output_digest_matches_receipt": true,
+      "output_frames": 480,
+      "reason": "references divergent source(s): src_multi_960; output cannot contain their dropped frames",
+      "receipt_digest": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+      "receipt_frames": 480,
+      "referenced_sources": [
+        "src_multi_960"
+      ],
+      "status": "HOLD-AFFECTED"
+    }
+  },
+  "sources": {
+    "src_legacy_960": {
+      "container": {
+        "bits_per_sample": 16,
+        "block_align": 2,
+        "channels": 1,
+        "container_frames": 960,
+        "data_chunk_count": 2,
+        "dropped_frames": 480,
+        "parser_visible_frames": 480,
+        "sample_rate": 48000,
+        "valid_riff": true
+      },
+      "digest_matches_metadata": true,
+      "id": "src_legacy_960",
+      "media_sha256": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+      "metadata_digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+      "reason": "2 data chunks; container=960 frames but overwrite parser sees only 480 (drops 480)",
+      "record_frame_count": 960,
+      "status": "HOLD-DIVERGENT"
+    },
+    "src_multi_960": {
+      "container": {
+        "bits_per_sample": 16,
+        "block_align": 2,
+        "channels": 1,
+        "container_frames": 960,
+        "data_chunk_count": 2,
+        "dropped_frames": 480,
+        "parser_visible_frames": 480,
+        "sample_rate": 48000,
+        "valid_riff": true
+      },
+      "digest_matches_metadata": true,
+      "id": "src_multi_960",
+      "media_sha256": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+      "metadata_digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+      "reason": "2 data chunks; container=960 frames but overwrite parser sees only 480 (drops 480)",
+      "record_frame_count": 480,
+      "status": "HOLD-DIVERGENT"
+    },
+    "src_multi_odd": {
+      "container": {
+        "bits_per_sample": 16,
+        "block_align": 2,
+        "channels": 1,
+        "container_frames": 960,
+        "data_chunk_count": 2,
+        "dropped_frames": 600,
+        "parser_visible_frames": 360,
+        "sample_rate": 48000,
+        "valid_riff": true
+      },
+      "digest_matches_metadata": true,
+      "id": "src_multi_odd",
+      "media_sha256": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7",
+      "metadata_digest": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7",
+      "reason": "2 data chunks; container=960 frames but overwrite parser sees only 360 (drops 600)",
+      "record_frame_count": 360,
+      "status": "HOLD-DIVERGENT"
+    },
+    "src_single": {
+      "container": {
+        "bits_per_sample": 16,
+        "block_align": 2,
+        "channels": 1,
+        "container_frames": 960,
+        "data_chunk_count": 1,
+        "dropped_frames": 0,
+        "parser_visible_frames": 960,
+        "sample_rate": 48000,
+        "valid_riff": true
+      },
+      "digest_matches_metadata": true,
+      "id": "src_single",
+      "media_sha256": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74",
+      "metadata_digest": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74",
+      "reason": "single data chunk, record matches bytes",
+      "record_frame_count": 960,
+      "status": "RELEASE-CLEAN"
+    },
+    "src_stereo": {
+      "container": {
+        "bits_per_sample": 16,
+        "block_align": 4,
+        "channels": 2,
+        "container_frames": 960,
+        "data_chunk_count": 1,
+        "dropped_frames": 0,
+        "parser_visible_frames": 960,
+        "sample_rate": 48000,
+        "valid_riff": true
+      },
+      "digest_matches_metadata": true,
+      "id": "src_stereo",
+      "media_sha256": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54",
+      "metadata_digest": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54",
+      "reason": "single data chunk, record matches bytes",
+      "record_frame_count": 960,
+      "status": "RELEASE-CLEAN"
+    }
+  },
+  "summary": {
+    "renders": {
+      "HOLD-AFFECTED": 3,
+      "RELEASE-CLEAN": 1
+    },
+    "sources": {
+      "HOLD-DIVERGENT": 3,
+      "RELEASE-CLEAN": 2
+    }
+  }
+}

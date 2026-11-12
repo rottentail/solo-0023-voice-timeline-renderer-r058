@@ -1,0 +1,14 @@
+{
+  "id": "src_benign_list",
+  "name": "benign list chunk",
+  "digest": "3315d57e91f799ed206394ff8fcb82355e83cd129c138f655e244c5a9aee2bd4",
+  "byte_count": 1992,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 960,
+  "duration_ms": 20,
+  "peak_dbfs": -11.224148510407861,
+  "rms_dbfs": -14.792999909873497,
+  "created_at": "2026-11-12T09:58:01.994840966Z"
+}

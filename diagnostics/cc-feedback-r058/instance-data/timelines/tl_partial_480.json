@@ -1,0 +1,19 @@
+{
+  "id": "tl_partial_480",
+  "name": "tl_partial_480",
+  "sample_rate": 48000,
+  "output_channels": 1,
+  "target_peak_dbfs": -1,
+  "spans": [
+    {
+      "source_id": "src_multi_960",
+      "source_start_frame": 0,
+      "source_end_frame": 480,
+      "gain_db": 0,
+      "crossfade_frames": 0
+    }
+  ],
+  "state": "ready",
+  "output_frames": 480,
+  "created_at": "2026-11-12T09:54:33.846362675Z"
+}

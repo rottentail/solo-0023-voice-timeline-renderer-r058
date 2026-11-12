@@ -1,0 +1,14 @@
+{
+  "id": "src_multi_odd",
+  "name": "multi data 600+360",
+  "digest": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7",
+  "byte_count": 1972,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 360,
+  "duration_ms": 7,
+  "peak_dbfs": -20.76657360480111,
+  "rms_dbfs": -24.783547619077062,
+  "created_at": "2026-11-12T09:54:33.83317155Z"
+}

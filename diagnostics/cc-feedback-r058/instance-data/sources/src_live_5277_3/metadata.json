@@ -1,0 +1,14 @@
+{
+  "id": "src_live_5277_3",
+  "name": "live 3",
+  "digest": "7418eafed642e79ff5604033e33f1985d6021a8f5728b2fe7618d39cbba27e63",
+  "byte_count": 524,
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "frame_count": 240,
+  "duration_ms": 5,
+  "peak_dbfs": -21.040098063785805,
+  "rms_dbfs": -22.942016046369634,
+  "created_at": "2026-11-12T09:58:02.100192674Z"
+}

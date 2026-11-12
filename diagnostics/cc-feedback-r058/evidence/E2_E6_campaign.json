@@ -1,0 +1,413 @@
+{
+  "base": "http://127.0.0.1:8099",
+  "stages": {
+    "E2_source_registration": {
+      "src_multi_960": {
+        "container_truth": {
+          "byte_count": 1972,
+          "channels": 1,
+          "container_total_frames": 960,
+          "container_total_pcm_bytes": 1920,
+          "data_chunk_count": 2,
+          "sample_rate": 48000,
+          "sha256": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4"
+        },
+        "fixture": "multi_data_960.wav",
+        "frame_divergence": -480,
+        "http_status": 201,
+        "record_digest_equals_bytes": true,
+        "service_record": {
+          "bits_per_sample": 16,
+          "byte_count": 1972,
+          "channels": 1,
+          "created_at": "2026-11-12T09:54:33.825469092Z",
+          "digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+          "duration_ms": 10,
+          "frame_count": 480,
+          "id": "src_multi_960",
+          "name": "multi data 480+480",
+          "peak_dbfs": -22.8762952000524,
+          "rms_dbfs": -28.85228882195627,
+          "sample_rate": 48000
+        }
+      },
+      "src_multi_odd": {
+        "container_truth": {
+          "byte_count": 1972,
+          "channels": 1,
+          "container_total_frames": 960,
+          "container_total_pcm_bytes": 1920,
+          "data_chunk_count": 2,
+          "sample_rate": 48000,
+          "sha256": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7"
+        },
+        "fixture": "multi_data_odd.wav",
+        "frame_divergence": -600,
+        "http_status": 201,
+        "record_digest_equals_bytes": true,
+        "service_record": {
+          "bits_per_sample": 16,
+          "byte_count": 1972,
+          "channels": 1,
+          "created_at": "2026-11-12T09:54:33.83317155Z",
+          "digest": "c9b8cd0b9aba672a4b7d0dd0cf37d0d8460f2ab2ab2cac2c9be227f3b0c32cf7",
+          "duration_ms": 7,
+          "frame_count": 360,
+          "id": "src_multi_odd",
+          "name": "multi data 600+360",
+          "peak_dbfs": -20.76657360480111,
+          "rms_dbfs": -24.783547619077062,
+          "sample_rate": 48000
+        }
+      },
+      "src_single": {
+        "container_truth": {
+          "byte_count": 1964,
+          "channels": 1,
+          "container_total_frames": 960,
+          "container_total_pcm_bytes": 1920,
+          "data_chunk_count": 1,
+          "sample_rate": 48000,
+          "sha256": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74"
+        },
+        "fixture": "single_normal.wav",
+        "frame_divergence": 0,
+        "http_status": 201,
+        "record_digest_equals_bytes": true,
+        "service_record": {
+          "bits_per_sample": 16,
+          "byte_count": 1964,
+          "channels": 1,
+          "created_at": "2026-11-12T09:54:33.836102883Z",
+          "digest": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74",
+          "duration_ms": 20,
+          "frame_count": 960,
+          "id": "src_single",
+          "name": "single chunk control",
+          "peak_dbfs": -11.224148510407861,
+          "rms_dbfs": -14.792999909873497,
+          "sample_rate": 48000
+        }
+      },
+      "src_stereo": {
+        "container_truth": {
+          "byte_count": 3884,
+          "channels": 2,
+          "container_total_frames": 960,
+          "container_total_pcm_bytes": 3840,
+          "data_chunk_count": 1,
+          "sample_rate": 48000,
+          "sha256": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54"
+        },
+        "fixture": "stereo_normal.wav",
+        "frame_divergence": 0,
+        "http_status": 201,
+        "record_digest_equals_bytes": true,
+        "service_record": {
+          "bits_per_sample": 16,
+          "byte_count": 3884,
+          "channels": 2,
+          "created_at": "2026-11-12T09:54:33.839601258Z",
+          "digest": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54",
+          "duration_ms": 20,
+          "frame_count": 960,
+          "id": "src_stereo",
+          "name": "stereo control",
+          "peak_dbfs": -11.224148510407861,
+          "rms_dbfs": -17.24103965837532,
+          "sample_rate": 48000
+        }
+      }
+    },
+    "E3_E4_grid_and_render": {
+      "tl_control_960": {
+        "final_quantized_frames": 960,
+        "grid_promised_frames": 960,
+        "grid_vs_final_delta": 0,
+        "job_after_submit": {
+          "created_at": "2026-11-12T09:54:33.876472967Z",
+          "id": "render_tl_control_960",
+          "output": {
+            "bits_per_sample": 16,
+            "byte_count": 1964,
+            "channels": 1,
+            "digest": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+            "duration_ms": 20,
+            "frame_count": 960,
+            "peak_dbfs": -0.9998544876801003,
+            "rms_dbfs": -4.568852197118979,
+            "sample_rate": 48000
+          },
+          "receipt_digest": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+          "state": "completed",
+          "timeline_id": "tl_control_960",
+          "updated_at": "2026-11-12T09:54:33.883545258Z"
+        },
+        "output_byte_count": 1964,
+        "output_bytes_sha256": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+        "output_download_status": 200,
+        "receipt": {
+          "created_at": "2026-11-12T09:54:33.878677008Z",
+          "normalization": {
+            "applied_gain_db": 10.224148510407861,
+            "before_peak_dbfs": -11.224148510407861,
+            "output_peak_dbfs": -0.9998544876801003,
+            "requested_peak_dbfs": -1
+          },
+          "output": {
+            "bits_per_sample": 16,
+            "byte_count": 1964,
+            "channels": 1,
+            "digest": "01b33bbe636883fac0e50c2e301d0d02d1f0d6a68c0e37a41a18d81db1c4b3d9",
+            "duration_ms": 20,
+            "frame_count": 960,
+            "peak_dbfs": -0.9998544876801003,
+            "rms_dbfs": -4.568852197118979,
+            "sample_rate": 48000
+          },
+          "render_id": "render_tl_control_960",
+          "schema_version": 1,
+          "spans": [
+            {
+              "channel_action": "unchanged",
+              "crossfade_frames": 0,
+              "gain_db": 0,
+              "index": 0,
+              "output_end_frame": 960,
+              "output_frames": 960,
+              "output_start_frame": 0,
+              "source_digest": "b444c40741bc165b7137a9a95d0dc33f78f748bfd1567bd6cba9b9d6a3d29f74",
+              "source_end_frame": 960,
+              "source_id": "src_single",
+              "source_start_frame": 0
+            }
+          ],
+          "timeline_id": "tl_control_960",
+          "warnings": []
+        },
+        "receipt_digest_matches_download": true,
+        "render_http": 201,
+        "timeline": {
+          "created_at": "2026-11-12T09:54:33.873475217Z",
+          "id": "tl_control_960",
+          "name": "tl_control_960",
+          "output_channels": 1,
+          "output_frames": 960,
+          "sample_rate": 48000,
+          "spans": [
+            {
+              "crossfade_frames": 0,
+              "gain_db": 0,
+              "source_end_frame": 960,
+              "source_id": "src_single",
+              "source_start_frame": 0
+            }
+          ],
+          "state": "ready",
+          "target_peak_dbfs": -1
+        },
+        "timeline_http": 201
+      },
+      "tl_full_960": {
+        "timeline": {
+          "error": {
+            "code": "invalid_source_interval",
+            "field": "spans[0].source_end_frame",
+            "message": "source interval must be non-empty and remain inside the source frame count"
+          }
+        },
+        "timeline_http": 422
+      },
+      "tl_partial_441": {
+        "final_quantized_frames": 441,
+        "grid_promised_frames": 441,
+        "grid_vs_final_delta": 0,
+        "job_after_submit": {
+          "created_at": "2026-11-12T09:54:33.862114842Z",
+          "id": "render_tl_partial_441",
+          "output": {
+            "bits_per_sample": 16,
+            "byte_count": 926,
+            "channels": 1,
+            "digest": "fcf12028c79988f6c34bc9a2ad142d52e04c3c495ffd14a0b4eb0deb6d81515f",
+            "duration_ms": 10,
+            "frame_count": 441,
+            "peak_dbfs": -0.9998870170743177,
+            "rms_dbfs": -6.975009860811642,
+            "sample_rate": 44100
+          },
+          "receipt_digest": "fcf12028c79988f6c34bc9a2ad142d52e04c3c495ffd14a0b4eb0deb6d81515f",
+          "state": "completed",
+          "timeline_id": "tl_partial_441",
+          "updated_at": "2026-11-12T09:54:33.870413217Z"
+        },
+        "output_byte_count": 926,
+        "output_bytes_sha256": "fcf12028c79988f6c34bc9a2ad142d52e04c3c495ffd14a0b4eb0deb6d81515f",
+        "output_download_status": 200,
+        "receipt": {
+          "created_at": "2026-11-12T09:54:33.864470258Z",
+          "normalization": {
+            "applied_gain_db": 21.878580933457226,
+            "before_peak_dbfs": -22.878580933457226,
+            "output_peak_dbfs": -0.9998870170743177,
+            "requested_peak_dbfs": -1
+          },
+          "output": {
+            "bits_per_sample": 16,
+            "byte_count": 926,
+            "channels": 1,
+            "digest": "fcf12028c79988f6c34bc9a2ad142d52e04c3c495ffd14a0b4eb0deb6d81515f",
+            "duration_ms": 10,
+            "frame_count": 441,
+            "peak_dbfs": -0.9998870170743177,
+            "rms_dbfs": -6.975009860811642,
+            "sample_rate": 44100
+          },
+          "render_id": "render_tl_partial_441",
+          "schema_version": 1,
+          "spans": [
+            {
+              "channel_action": "unchanged",
+              "crossfade_frames": 0,
+              "gain_db": 0,
+              "index": 0,
+              "output_end_frame": 441,
+              "output_frames": 441,
+              "output_start_frame": 0,
+              "source_digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+              "source_end_frame": 480,
+              "source_id": "src_multi_960",
+              "source_start_frame": 0
+            }
+          ],
+          "timeline_id": "tl_partial_441",
+          "warnings": []
+        },
+        "receipt_digest_matches_download": true,
+        "render_http": 201,
+        "timeline": {
+          "created_at": "2026-11-12T09:54:33.85982505Z",
+          "id": "tl_partial_441",
+          "name": "tl_partial_441",
+          "output_channels": 1,
+          "output_frames": 441,
+          "sample_rate": 44100,
+          "spans": [
+            {
+              "crossfade_frames": 0,
+              "gain_db": 0,
+              "source_end_frame": 480,
+              "source_id": "src_multi_960",
+              "source_start_frame": 0
+            }
+          ],
+          "state": "ready",
+          "target_peak_dbfs": -1
+        },
+        "timeline_http": 201
+      },
+      "tl_partial_480": {
+        "final_quantized_frames": 480,
+        "grid_promised_frames": 480,
+        "grid_vs_final_delta": 0,
+        "job_after_submit": {
+          "created_at": "2026-11-12T09:54:33.848343633Z",
+          "id": "render_tl_partial_480",
+          "output": {
+            "bits_per_sample": 16,
+            "byte_count": 1004,
+            "channels": 1,
+            "digest": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+            "duration_ms": 10,
+            "frame_count": 480,
+            "peak_dbfs": -0.9998870170743177,
+            "rms_dbfs": -6.975992041575116,
+            "sample_rate": 48000
+          },
+          "receipt_digest": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+          "state": "completed",
+          "timeline_id": "tl_partial_480",
+          "updated_at": "2026-11-12T09:54:33.856371758Z"
+        },
+        "output_byte_count": 1004,
+        "output_bytes_sha256": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+        "output_download_status": 200,
+        "receipt": {
+          "created_at": "2026-11-12T09:54:33.85053355Z",
+          "normalization": {
+            "applied_gain_db": 21.8762952000524,
+            "before_peak_dbfs": -22.8762952000524,
+            "output_peak_dbfs": -0.9998870170743177,
+            "requested_peak_dbfs": -1
+          },
+          "output": {
+            "bits_per_sample": 16,
+            "byte_count": 1004,
+            "channels": 1,
+            "digest": "8c1d580fde2e80825046b06978c14f04bf92591361791d2f5adf77bbf840e914",
+            "duration_ms": 10,
+            "frame_count": 480,
+            "peak_dbfs": -0.9998870170743177,
+            "rms_dbfs": -6.975992041575116,
+            "sample_rate": 48000
+          },
+          "render_id": "render_tl_partial_480",
+          "schema_version": 1,
+          "spans": [
+            {
+              "channel_action": "unchanged",
+              "crossfade_frames": 0,
+              "gain_db": 0,
+              "index": 0,
+              "output_end_frame": 480,
+              "output_frames": 480,
+              "output_start_frame": 0,
+              "source_digest": "3ddc5680051cf3ff860efac32ba91bd60cd29feb727dd78e3eaedb5527c563f4",
+              "source_end_frame": 480,
+              "source_id": "src_multi_960",
+              "source_start_frame": 0
+            }
+          ],
+          "timeline_id": "tl_partial_480",
+          "warnings": []
+        },
+        "receipt_digest_matches_download": true,
+        "render_http": 201,
+        "timeline": {
+          "created_at": "2026-11-12T09:54:33.846362675Z",
+          "id": "tl_partial_480",
+          "name": "tl_partial_480",
+          "output_channels": 1,
+          "output_frames": 480,
+          "sample_rate": 48000,
+          "spans": [
+            {
+              "crossfade_frames": 0,
+              "gain_db": 0,
+              "source_end_frame": 480,
+              "source_id": "src_multi_960",
+              "source_start_frame": 0
+            }
+          ],
+          "state": "ready",
+          "target_peak_dbfs": -1
+        },
+        "timeline_http": 201
+      }
+    },
+    "E5_idempotency_nonoverwrite": {
+      "repeat_source_returns_same_digest": true,
+      "repeat_source_status": 200,
+      "rerender_id_rebind_error": {
+        "error": {
+          "code": "render_conflict",
+          "field": "render_id",
+          "message": "identifier is already bound to a different timeline"
+        }
+      },
+      "rerender_id_rebind_status": 409,
+      "rerender_same_idempotent_status": 200,
+      "rerender_same_state": "completed"
+    }
+  }
+}

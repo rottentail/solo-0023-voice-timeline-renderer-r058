@@ -1,0 +1,14 @@
+{
+  "id": "src_stereo",
+  "name": "stereo control",
+  "digest": "31b83f1cc3711da831c53faf44c2b6d5a3f121425b4af9dc6f1c244837c0bf54",
+  "byte_count": 3884,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "frame_count": 960,
+  "duration_ms": 20,
+  "peak_dbfs": -11.224148510407861,
+  "rms_dbfs": -17.24103965837532,
+  "created_at": "2026-11-12T09:54:33.839601258Z"
+}
